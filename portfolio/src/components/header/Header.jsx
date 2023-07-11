@@ -1,8 +1,8 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-// this should be a photot of me but ill add it later
-import ME from '../../assets/Metro-Boomin-Spider-Man.webp'
+import ME from '../../assets/Metro-Boomin-Spider-Man.png'
+import HeaderSocials from "./HeaderSocials"
 
 const Header = () => {
   return (
@@ -12,6 +12,7 @@ const Header = () => {
       <h1>Micheal Hamoud</h1>
       <h5 className="text-light">Fullstack Developer</h5>
       <CTA />
+      <HeaderSocials />
 
       <div className="me">
         <img src={ME} alt="me" />
