@@ -39,9 +39,13 @@ const About = () => {
         </div>
 
         <p>
-          Hi, My name is Micheal Hamoud. I am a junior Software developer. 
+                Hi my name is Micheal, i am 22 years old. I run a business with my family full time but when im not at work
+                im either at the gym or studying.
+                The reason why I choose to study software development is due to the fact that i always had a passion for coding and 
+                wanted to see if i can expand my skill set and see if i am able to land a carrer. I started coding back in year 12 with a basic web page I was
+                doing for my family business at the time just to brush up on my skills
         </p>
-        <a href="#contact"className='btn btn-primary'>Let's talk</a>
+        <a href="#contact" className='btn btn-primary'>Let's talk</a>
         </div>
       </div>
     </section>
